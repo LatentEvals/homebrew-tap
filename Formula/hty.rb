@@ -1,24 +1,24 @@
 class Hty < Formula
   desc "Interactive terminal automation for AI agents"
   homepage "https://github.com/LatentEvals/hty"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/LatentEvals/hty/releases/download/v#{version}/hty-aarch64-macos.tar.gz"
-      sha256 "2e5f82bbef3c0babc85b1d1da68a81e3e1c78e936c8e6712054a3ee604b0798f"
+      sha256 "19b2a4548cf1176fed205a16a699eef24ab8f9c5b016ece8fd62cb9ee4315c37"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/LatentEvals/hty/releases/download/v#{version}/hty-x86_64-linux.tar.gz"
-      sha256 "0936eb1e630c9d88888bef8e74ae86299631f4f23dcd8b4ee4912729b27d7e15"
+      sha256 "3d9f78848dd69f8853b2c53cb34574c9055de1600b7f339683543ae41237ed47"
     end
     on_arm do
       url "https://github.com/LatentEvals/hty/releases/download/v#{version}/hty-aarch64-linux.tar.gz"
-      sha256 "29cd0550360f1ed4b37c54c826a4dd6f4a37408b4bc11030f48c8790c191fde8"
+      sha256 "6734987578df6f319d85d70c98195419c517ca82157322c598a1b2c097514656"
     end
   end
 
